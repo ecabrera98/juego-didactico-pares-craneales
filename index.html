@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Juego Pares Craneales</title>
+    <link rel="stylesheet" href="plugins/animate.css">
+    <link rel="stylesheet" href="componentes/diseño/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="componentes/img/brain7.ico"
+
+
+</head>
+<body>
+          
+          <h1 class="text-center text-light">Aprendiendo Los Pares Craneales</span></h1>
+          <audio src="componentes/audio/fondo.mp3"></audio>
+          <audio src="componentes/audio/fondo.mp3" autoplay loop></audio>
+    <div id="container">
+        <div id="start">Empezar Juego!</div>
+        <div id="finish">Salir</div>
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+            </div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+            
+    </div>
+    <div id="quiz" style="display: block"></div>
+    
+
+    <script src="componentes/diseño/quiz.js"></script>
+</body>
+</html>

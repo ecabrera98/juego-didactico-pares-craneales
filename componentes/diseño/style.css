@@ -1,0 +1,204 @@
+body{
+    background-image: url('../img/brain3.jpg');
+	margin:0;
+	padding:0;
+}
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+h1{
+	font-size: 3.0em;
+	text-align: center;
+    color: #07ff83;
+    position: relative;
+    left:0px;
+    top:-15px;
+    margin:30px 0px -15px;
+}
+
+#container{
+    margin : 20px auto;
+    height: 500px;
+    width : 1028px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    background-image: url('../img/meningitis.svg');
+    opacity: 0.8;
+}
+#start{
+    font-size: 2.5em;
+    font-weight: bolder;
+    word-break: break-all;
+    width:400px;
+    height:60px;
+    border : 5px solid rgb(239, 243, 13);
+    text-align: center;
+    cursor: pointer;
+    background-color:#171c5a;
+    position: absolute;
+    left:300px;
+    top:50px;
+    color : rgb(250, 104, 7);
+}
+#start:hover{
+    border: 5px solid  rgb(143, 247, 7);
+    color : rgb(10, 225, 253);
+}
+
+#qImg{
+    width : 200px;
+    height : 200px;
+    left : 0px;
+    top : 0px;
+}
+#qImg img{
+    width :300px;
+    height : 300px;
+    border-top-left-radius: 5px;
+}
+
+#question{
+    padding: 15px;
+    background-color:#673ab7;
+    text-align: center;
+    width: 1000px;
+    height: 125px;
+	color:#ffffff;
+	font-size:20px;
+	float: left;
+}
+#question p{
+    background-color: rgb(46, 125, 230);
+    margin : 0;
+    padding : 20px;
+    font-size: 1.25em;
+}
+
+#choices{
+    width : 700px;
+    height : 125px;
+    color: rgb(71, 1, 73);
+    float: right;
+    padding : 0px;
+    top : 10x;
+    
+}
+.choice{
+    display: inline-block;
+    background-color: rgb(122, 236, 227);
+    width : 150px;
+    text-align: center;
+    border : 5px solid rgb(234, 238, 236);
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+    
+}
+
+
+.choice:hover{
+    border : 5px solid rgb(128, 128, 128);
+    font-weight: bold;
+}
+
+#timer{
+    position: absolute;
+    height : 100px;
+    width : 200px;
+    bottom : 0px;
+    text-align: center;
+}
+#counter{
+    font-size: 3em;
+}
+#btimeGauge{
+    width : 150px;
+    height : 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-left : 25px;
+}
+#timeGauge{
+    height : 10px;
+    border-radius: 10px;
+    background-color: mediumseagreen;
+    margin-top : -10px;
+    margin-left : 25px;
+}
+#progress{
+    width : 500px;
+    position: absolute;
+    bottom : 0px;
+    right : 0px;
+    padding:5px;
+    text-align: right;
+}
+.prog{
+    width : 25px;
+    height : 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+#scoreContainer{
+    font-size: 2.2em;
+    margin : 20px auto;
+    word-break: break-all;
+    color: #021527;
+    text-align: center;
+    background-color: rgb(15, 235, 187);
+    opacity: 1.0;
+    height: 400px;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: absolute;
+    top:80px;
+    left:150px;
+    display: none;
+}
+#scoreContainer img{
+    position: absolute;
+    top:120px;
+    left:325px;
+}
+#scoreContainer p{
+    display: block;
+    width : 50px;
+    height :50px;
+    top:250px;
+    left:325px;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#finish{
+    font-size: 2.5em;
+    font-weight: bolder;
+    word-break: break-all;
+    width:150px;
+    height:50px;
+    border : 5px solid rgb(239, 243, 13);
+    text-align: center;
+    cursor: pointer;
+    background-color:#171c5a;
+    position: absolute;
+    left:420px;
+    top:200px;
+    color : rgb(250, 104, 7);
+}
+#finish:hover{
+    border: 5px solid  rgb(48, 26, 248);
+    color : rgb(10, 225, 253);
+}
+
+
+
+
