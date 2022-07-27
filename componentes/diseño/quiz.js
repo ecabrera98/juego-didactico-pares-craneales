@@ -413,7 +413,7 @@ function scoreRender(){
     scoreDiv.innerHTML += "Su Calificación es: "
     scoreDiv.innerHTML += "<br>"+" "+ "</br>";
     scoreDiv.innerHTML += "<br>"+ score +"/"+ questions.length +"</br>";
-    scoreDiv.innerHTML += "<br>"+ MENU PRINCIPAL + "</br>";
+    scoreDiv.innerHTML += "<br>"+"MENU PRINCIPAL"+ "</br>";
     scoreDiv.addEventListener("click",reloadPage);
 }
 
